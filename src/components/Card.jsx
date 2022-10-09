@@ -18,7 +18,6 @@ const Card = ({ data }) => {
             <h2>
               First Name: {FirstName} {LastName}
             </h2>
-
             <h3>Country : {Country}</h3>
             <h2>Company : {Company}</h2>
             <h2>Positon : {Position}</h2>
