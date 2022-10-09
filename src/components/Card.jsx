@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 
 const Card = ({ data }) => {
   return (
-    <div className="container" style={{ backgroundColor: "greenyellow" }}>
+    <div className="container">
       {data.map((item) => {
         const {
           FirstName,
