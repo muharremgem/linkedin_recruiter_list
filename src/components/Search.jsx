@@ -3,7 +3,7 @@ import Input from "./Input";
 import data from "../data";
 import Card from "./Card";
 const Search = () => {
-  const [searchTerm, setSearchTerm] = useState(" ");
+  const [searchTerm, setSearchTerm] = useState("");
 
   return (
     <div>

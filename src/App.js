@@ -6,7 +6,7 @@ import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="App bg-lime-300">
+    <div className="App bg-white">
       <Navbar />
       <Search />
     </div>
