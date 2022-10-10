@@ -20,7 +20,7 @@ const Card = ({ data }) => {
 
   return (
     <div className="grid grid-col-3   p-5 m-5  ">
-      <div className="content font-bold text-lg p-16  bg-sky-400 rounded-xl h-[35rem]">
+      <div className="content font-bold text-lg p-16   bg-blue-400 rounded-xl h-[35rem]">
         <img
           className="mb-10 rounded-full"
           src="http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif"
@@ -48,7 +48,11 @@ const Card = ({ data }) => {
                 </a>
               </div>
               <div className="flex  text-center m-2 ">
-                <p>Linkedin</p>
+                <p>
+                  <a href={data.Linkedin} target="_blank">
+                    Linkedin
+                  </a>
+                </p>
               </div>
             </div>
           </button>
