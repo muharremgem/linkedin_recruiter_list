@@ -19,7 +19,7 @@ const Card = ({ data }) => {
   // }
 
   return (
-    <div className="grid grid-col-3   p-5 m-5  ">
+    <div className="grid grid-col-3  p-5 m-5  ">
       <div className="content font-bold text-lg p-16   bg-blue-400 rounded-xl h-[35rem]">
         <img
           className="mb-10 rounded-full"
