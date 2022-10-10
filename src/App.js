@@ -1,12 +1,14 @@
 import "./App.css";
-import Card from "./components/Card";
 import data from "./data";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Input from "./components/Input";
+import Navbar from "./components/Navbar";
+import Search from "./components/Search";
 
 function App() {
   return (
-    <div className="App">
-      <Card data={data} />
+    <div className="App bg-lime-300">
+      <Navbar />
+      <Search />
     </div>
   );
 }
