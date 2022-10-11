@@ -20,7 +20,8 @@ const Navbar = () => {
             <BsGithub />
           </a>
 
-          <h1 className="m-[rem]">THE WORLD'S BEST COMPANIES </h1>
+          <h1 className="m-[1rem]">THE WORLD'S BEST COMPANIES 🌍 </h1>
+
           <h1>TOP 500 LINKEDIN RECRUITER LİSTS</h1>
           <a
             className="flex  mx-8 mb-8 hover:scale-150 duration-500"
