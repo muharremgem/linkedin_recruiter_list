@@ -11,9 +11,10 @@ const Navbar = () => {
         </a>
       </div>
       <div>
-        <h1 className="flex flex-wrap justify-center items-center font-mono bg-blue-500 font-bold text-2xl  text-green-500">
+        <div className="flex flex-wrap justify-center items-center font-mono bg-blue-500 font-bold text-2xl  text-white">
+          <h1 className="mb-[5rem]">THE WORLD'S BEST COMPANIES</h1>
           TOP 500 LINKEDIN RECRUİTER LİST
-        </h1>
+        </div>
       </div>
     </div>
   );
