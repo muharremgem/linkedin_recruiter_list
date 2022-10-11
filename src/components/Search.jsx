@@ -5,7 +5,9 @@ import Card from "./Card";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
-
+  const [image, setImage] = useState(
+    "http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif "
+  );
   return (
     <div>
       <Input searchTerm={setSearchTerm} />

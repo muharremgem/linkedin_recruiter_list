@@ -74,6 +74,9 @@ const Card = ({ data }) => {
         "https://www.logo.wine/a/logo/Tesla%2C_Inc./Tesla%2C_Inc.-Logomark%26Wordmark2-Dark-Background-Logo.wine.svg"
       );
       break;
+    default:
+      setImage("Error");
+      break;
   }
 
   return (
