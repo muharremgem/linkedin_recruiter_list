@@ -15,7 +15,7 @@ const data = [
     Company: "Google",
     Position: "Technical Recruiter",
     Years: "1Y - 5M",
-    Linkedin: "https://www.linkedin.com/in/technicalrecruiting",
+    Linkedin: "https://www.linkedin.com/in/sebgoogle/",
   },
   {
     FirstName: "Sabina",
