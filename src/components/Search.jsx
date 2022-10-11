@@ -5,13 +5,11 @@ import Card from "./Card";
 
 const Search = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [image, setImage] = useState(
-    "http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif "
-  );
+
   return (
     <div>
       <Input searchTerm={setSearchTerm} />
-      <div className="container grid grid-cols-5 m-auto rounded-md ">
+      <div className="flex flex-wrap container justify-center items-center gap-10 mt-10 m-auto rounded-md  ">
         {data
           .filter((value) => {
             if (searchTerm == " ") {
@@ -37,7 +35,7 @@ const Search = () => {
             }
           })
           .map((value, idx) => (
-            <div>
+            <div key={idx}>
               <Card data={value} />
             </div>
           ))}
