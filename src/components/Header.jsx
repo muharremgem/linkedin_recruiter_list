@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className=" w-auto flex justify-center items-center ">
       <div className="bg-blue-400 p-[3rem]   w-full overflow-x-auto flex  justify-center items-center">
-        <div className="flex gap-5 h-20 rounded-full  cursor-pointer">
+        <div className="flex gap-5 h-20   cursor-pointer">
           {[
             "https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png",

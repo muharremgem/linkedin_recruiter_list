@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLinkedin } from "react-icons/bs";
+import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const Navbar = () => {
   return (
@@ -11,9 +11,24 @@ const Navbar = () => {
         </a>
       </div>
       <div>
-        <div className="flex flex-wrap justify-center items-center font-mono bg-blue-500 font-bold text-2xl  text-white">
-          <h1 className="mb-[5rem]">THE WORLD'S BEST COMPANIES</h1>
-          TOP 500 LINKEDIN RECRUITER LİSTS
+        <div className="flex  justify-center items-center font-mono bg-blue-500 font-bold text-xl  text-white">
+          <a
+            className="flex  mx-8 mb-8  hover:-scale-150 "
+            href="https://github.com/muharremgem"
+            target="_blank"
+          >
+            <BsGithub />
+          </a>
+
+          <h1 className="m-[rem]">THE WORLD'S BEST COMPANIES </h1>
+          <h1>TOP 500 LINKEDIN RECRUITER LİSTS</h1>
+          <a
+            className="flex  mx-8 mb-8 hover:scale-150 duration-500"
+            href="https://www.linkedin.com/in/muharremgem/"
+            target="_blank"
+          >
+            <BsLinkedin />
+          </a>
         </div>
       </div>
     </div>
