@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <div>
       <h6 className="flex  justify-end text-sm  text-purple-600 font-thin">
-        <GiSpiderWeb />
+        <a className="text-lg" href="https://www.muharremgem.com/">
+          <GiSpiderWeb />
+        </a>
         <a href="https://www.muharremgem.com/" target="_blank">
           Designed by Muharrem GEM
         </a>
