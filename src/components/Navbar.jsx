@@ -13,7 +13,7 @@ const Navbar = () => {
       <div>
         <div className="flex flex-wrap justify-center items-center font-mono bg-blue-500 font-bold text-2xl  text-white">
           <h1 className="mb-[5rem]">THE WORLD'S BEST COMPANIES</h1>
-          TOP 500 LINKEDIN RECRUİTER LİST
+          TOP 500 LINKEDIN RECRUITER LİSTS
         </div>
       </div>
     </div>
