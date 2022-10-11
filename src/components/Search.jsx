@@ -9,7 +9,7 @@ const Search = () => {
   return (
     <div>
       <Input searchTerm={setSearchTerm} />
-      <div className="container grid grid-cols-4 m-auto rounded-md ">
+      <div className="container grid grid-cols-5 m-auto rounded-md ">
         {data
           .filter((value) => {
             if (searchTerm == " ") {
