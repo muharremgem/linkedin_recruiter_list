@@ -130,8 +130,8 @@ const Card = ({ data }) => {
   }, [data.Company]);
 
   return (
-    <div className=" hover:scale-110 duration-300">
-      <div className="content flex flex-col font-bold justify-center w-[20rem] min-h-[30rem] p-5  items-center bg-blue-400 rounded-xl ">
+    <div className=" hover:scale-105 duration-300  rounded-3xl cursor-pointer">
+      <div className="content flex flex-col font-bold justify-center w-[20rem] min-h-[30rem] p-5 items-center bg-blue-400 rounded-xl ">
         <img
           className={`mb-5 w-auto h-[5rem] object-cover`}
           src={image}
