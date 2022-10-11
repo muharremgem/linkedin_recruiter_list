@@ -19,7 +19,7 @@ const Card = ({ data }) => {
   // }
 
   return (
-    <div className="grid grid-col-3 p-5 m-5 hover:scale-125 duration-300">
+    <div className="grid grid-col-3 p-5 m-5 hover:scale-110 duration-300">
       <div className="content flex flex-col font-bold  p-10 bg-blue-400 rounded-xl ">
         <img
           className="mb-5  "
@@ -35,17 +35,15 @@ const Card = ({ data }) => {
           <h2 className=" text-blue-500"> {data.Position}</h2>
           <h2 className=" text-green-800"> {data.Years}</h2>
         </div>
-        <div className=" ">
-          <button className=" bg-gray-200 px-10 mt-10 hover:bg-blue-500 hover:text-white hover:scale-125 duration-300 rounded-md">
-            <div>
-              <p>
-                <a href={data.Linkedin} target="_blank">
-                  Linked
-                </a>
-              </p>
+        <div className="flex bg-gray-200 px-10 mt-10 hover:bg-blue-500 hover:text-white hover:scale-125 duration-300 rounded-md">
+          <button>
+            <div className="flex mt-2">
+              <a href={data.Linkedin} target="_blank">
+                Linked
+              </a>
             </div>
             <div>
-              <div>
+              <div className="flex justify-end mx-15">
                 <a href={data.Linkedin} target="_blank">
                   <BsLinkedin />
                 </a>
