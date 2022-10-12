@@ -8,7 +8,7 @@ const Search = () => {
 
   return (
     <div>
-      <Input searchTerm={setSearchTerm} />
+      <Input searchTerm={setSearchTerm}/>
       <div className="flex flex-wrap container justify-center items-center gap-10 mt-10 m-auto rounded-md  ">
         {data
           .filter((value) => {
