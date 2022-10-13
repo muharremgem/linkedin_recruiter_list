@@ -36,7 +36,6 @@ const Search = () => {
             }
           })
           .map((value, idx) => (
-            {}
             <div key={idx}>
               <Card data={value} />
             </div>
