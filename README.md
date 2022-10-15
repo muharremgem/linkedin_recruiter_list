@@ -5,6 +5,22 @@
 [linkedin_recruiter_list](https://recruiter-lists.vercel.app/)| Js React Tailwind | ![linkedin_recruiter_list](recruiter.gif)
 
 
+React & Tailwind 
+
+Proje de öncelikle datayı güzel bir şekilde düzenleyerek bir converter(xlsx to Json) yardımı ile xlsx dosyasını JSON formatına çevirerek datayı  projeme ekledim.
+1- Navbar compenent’ini oluşturarak projeme başladım.
+
+2-Header component’inde ise map fonksiyonu yardımı ile ekleyebileceginiz şirketlerin iconlarını  projeme ekledim.
+
+3-İnput compenent’i ile  datamızdaki istediğimiz verilerin  isimlerini, ülkelerini ve kişilerin ismini girip arayabileceğimiz bir alan oluşturdum.
+
+4-Card component’inde ise  function yapımızı oluşturarak tüm datamızı  çekebildik.Dataları çektikten sonra  useState , useEffect ,Switch Case yapısı ile 
+datamızdaki şirketlerin isimleri girildiği zaman card yapısında o şirketler ile şirket iconlarının eşleşmesini ve gelmesini sağladım.
+
+5-Search component’i ile yine useState ,  filter ve map fonksiyonunu kullanarak input’da arattğımız şirketleri filter yardımı ile şirket ismi, yaşadığı ülke ve çalışan kişinin ismini arayabilme  özelliklerini ekledikten sonra  projem Tailwind Css ile görselleştirilerek mutlu sona ulaşmıştır.
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
