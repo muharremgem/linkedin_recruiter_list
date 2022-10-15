@@ -8,6 +8,7 @@
 React & Tailwind 
 
 Proje de öncelikle datayı güzel bir şekilde düzenleyerek bir converter(xlsx to Json) yardımı ile xlsx dosyasını JSON formatına çevirerek datayı  projeme ekledim.
+
 1- Navbar compenent’ini oluşturarak projeme başladım.
 
 2-Header component’inde ise map fonksiyonu yardımı ile ekleyebileceginiz şirketlerin iconlarını  projeme ekledim.
