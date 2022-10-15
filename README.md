@@ -21,6 +21,65 @@ datamızdaki şirketlerin isimleri girildiği zaman card yapısında o şirketle
 5-Search component’i ile yine useState ,  filter ve map fonksiyonunu kullanarak input’da arattğımız şirketleri filter yardımı ile şirket ismi, yaşadığı ülke ve çalışan kişinin ismini arayabilme  özelliklerini ekledikten sonra  projem Tailwind Css ile görselleştirilerek mutlu sona ulaşmıştır.
 
 
+linkedin recruiter list(folder)
+
+# Given to the students (Definition of the project)
+
+SOLUTION
+
+
+├── public
+
+    └── index.html
+
+├── src
+
+    ├── components
+
+ |---Card
+ 
+      |--Card.jsx
+      
+                   |__Footer.jsx
+                   |__Header.jsx
+                   |__Input.jsx
+                   |__Navbar.jsx
+                   |__Search.jsx
+
+│    ├── App.js
+
+│    ├── App.css
+
+│    ├── data.js
+
+│    ├── index.js
+
+│    └── index.css
+
+|── package.json
+
+|── rectuiter.gif
+
+|--readme.md
+
+|--tailwind.config.js
+
+
+
+## Objective
+
+Build a linkedin recruiter list 
+
+### At the end of the project, following topics are to be covered;
+
+- HTML
+
+- CSS
+
+- JS
+
+- ReactJS
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
